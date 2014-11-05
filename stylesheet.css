@@ -34,6 +34,12 @@ body {
 	background-color: #FFFFFF;
 }
 
+#wrapper {
+	width: 1200px;
+	margin: 0px auto;
+
+}
+
 #logo {
 	float: left;
 	margin-bottom: 10px
@@ -60,16 +66,153 @@ body {
 
 .nav_buttons span{
 	display: block;
+	margin-right: 10px;
 	font-family: helvetica, arial, sans-serif ;
 	font-size: 10px;
 	color: #c0c0c0;
 }
 
-.slider {
+.img-responsive {
 	width: 100%;
+	height: auto;
+}
+
+.clearfix:before, .clearfix:after{
+	clear: both;
+	display: table;
+	content:" ";
+	zoom:1;
+	overflow: auto;
+}
+
+#content{
+	margin-bottom: 10px;
+
+}
+
+#container .block {
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .col {
 	width: 30%;
 	float: left;
+	margin-bottom: 10px;
+}
+
+#col1 {
+	padding: 5px;
+	background-color: #9f9f9f;
+	margin-right: 10px;
+}
+
+#col2 {
+	padding: 5px;
+	background-color: #d5d5d5;
+	margin-right: 10px;
+}
+
+
+#col3 {
+	width: 30%;
+	float: right;
+}
+
+.buttons {
+	text-align: center;
+	height: auto;
+
+}
+
+.buttons span {
+	display: block;
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+}
+
+#footer {
+	float: left;
+	width: 100%;
+}
+
+.attribute-header {
+	margin-bottom: 15px;
+}
+
+
+#col_footer1 {
+	float: left;
+	width: 30%;
+}
+
+
+#col_footer2 {
+	width: 30%
+}
+#col_footer2 .block h2 {
+	margin-bottom: 5px;
+}
+.social_buttons ul {
+	margin-top: 15px;
+
+}
+.social_buttons li {
+	display: inline-block;
+	margin-right: 15px;
+
+}
+
+#col_footer3 {
+	float: right;
+	width: 30%;
+
+}
+
+
+#Picture_Stream li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#footer-bottom {
+	margin-top: 15px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/* RELATIF AU TEXTE*/
+
+h2 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	color: #000000;
+}
+
+h3 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #497983;
+}
+
+h4,h5 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	display: inline;
+}
+
+p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+a {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
 }
