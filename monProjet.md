@@ -25,7 +25,7 @@
 	J'ai laissé certaines balises (en particulier les liens) à complèter, afin de voir rapidement où sont les éléments à définir plutôt que de marquer un code n'ayant rien à voir et de devoir chercher par la suite les bons éléments à remplacer. De cette manière, les autres pages du site n'ayant pas été codées, je n'ai pas mis leurs liens dans les balises '<a>'' et le nom de mon site où la page d'accueil nétant pas définitive, je n'ai pas non plus mis les liens de la page d'accueil, sauf pour tester certaines balises, que j'ai ensuite enlevés. Cela me permet de ne pas avoir à chercher où sont les liens qui sont corrects et où sont ceux qui ne le sont pas.
 	J'ai agrméenté mon code de commentaires pour les éléments majeurs à rajouter (comme un affichage des tweets en rapports avec le page) plus tard ou pour définir des parties organisées dans mon CSS. ]
 
-	##Quelles sont les difficultés renconctrées durant ces 6 sessions ?
+	## Quelles sont les difficultés renconctrées durant ces 6 sessions ?
 
 		[Les difficultés majeures que j'ai rencontrées sont surtout dues à mon inexpérience dans le domaine du codage, en effet j'ai mis un certain tempas au départ pour retrouver les différentes syntaxes, retrouver les balises, comment les organiser...
 		Réaliser ce site m'a permis de récupérer mon niveau de l'année dernière et de beaucoup mieux comprendre plusieurs éléments, ce qui m'a fait progresser. 
