@@ -42,34 +42,38 @@ body {
 
 #logo {
 	float: left;
-	margin-bottom: 10px
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.nav_buttons{
+	margin:10px 0px 0px;
 }
 
 .nav_buttons ul {
 	float: right;
-	margin-right: 10px;
 }
 
 .nav_buttons li {
 	float: left;
+	margin-right: 20px;
 	margin-top: 0px;
-	margin-right: 5px;
 	margin-bottom: 10px;
 }
 
 .nav_buttons a {
+
+	text-decoration: none;
 	font-family: helvetica, arial, sans-serif ;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: bold;
-	color: #5c5c5c;
+	font-variant: small-caps;
+	color: #6e6e6e;
+
 }
 
-.nav_buttons span{
-	display: block;
-	margin-right: 10px;
-	font-family: helvetica, arial, sans-serif ;
-	font-size: 10px;
-	color: #c0c0c0;
+.nav_buttons a:hover {
+	color: #000000;
 }
 
 .img-responsive {
@@ -96,44 +100,29 @@ body {
 }
 
 .col {
-	width: 30%;
 	float: left;
 	margin-bottom: 10px;
 }
 
-#col1 {
-	padding: 5px;
-	background-color: #9f9f9f;
-	margin-right: 10px;
-}
-
-#col2 {
-	padding: 5px;
-	background-color: #d5d5d5;
-	margin-right: 10px;
-}
-
-
-#col3 {
-	width: 30%;
-	float: right;
-}
-
 .buttons {
 	text-align: center;
-	height: auto;
-
 }
 
-.buttons span {
-	display: block;
-	font-family: helvetica, arial, sans-serif;
-	text-align: center;
+.buttons li {
+	margin-bottom: 9px;
 }
 
 #footer {
-	float: left;
-	width: 100%;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+}
+
+#footer-top {
+	padding-right: -15px;
+	padding-left: -15px;
 }
 
 .attribute-header {
@@ -143,16 +132,23 @@ body {
 
 #col_footer1 {
 	float: left;
-	width: 30%;
 }
 
-
-#col_footer2 {
-	width: 30%
+#col-footer1 .block a{
+	text-decoration:none;
 }
-#col_footer2 .block h2 {
+
+#col_footer2 .block h3 {
+	font-size: 20px;
+	color: black;
 	margin-bottom: 5px;
 }
+
+#col_footer2 .block li {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+}
+
 .social_buttons ul {
 	margin-top: 15px;
 
@@ -163,11 +159,7 @@ body {
 
 }
 
-#col_footer3 {
-	float: right;
-	width: 30%;
 
-}
 
 
 #Picture_Stream li {
@@ -194,14 +186,21 @@ h2 {
 
 h3 {
 	font-family: helvetica, arial, sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: #497983;
 }
 
-h4,h5 {
+h4 {
 	font-family: helvetica, arial, sans-serif;
 	font-size: 10px;
-	color: #000000;
+	color: #004987;
+	display: inline;
+}
+
+h5 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 10px;
+	color: #ffddc6;
 	display: inline;
 }
 
@@ -213,6 +212,21 @@ p {
 }
 
 a {
+	text-decoration: none;
+
 	font-family: helvetica, arial, sans-serif;
 	font-size: 14px;
 }
+
+a:link{
+	color: #014c48;
+}
+
+a:hover {
+	color:#686868;
+}
+
+a:visited{
+	color: #323232;
+}
+
